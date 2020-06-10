@@ -14,7 +14,7 @@ def gradientDescent(x, y):
         m_curr = m_curr - learning_rate * md
         b_curr = b_curr - learning_rate * bd
         cost = 1 / n * sum([val ** 2 for val in (y - y_predicted)])
-        # print("m => {} b => {} iteration => {} cost => {} ".format(m_curr,b_curr,i,cost))
+         print("m => {} b => {} iteration => {} cost => {} ".format(m_curr,b_curr,i,cost))
 
     return m_curr, b_curr
 
